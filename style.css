@@ -39,6 +39,7 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
@@ -111,14 +112,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about styles */
 .about-section{
     border-radius: 15px;
     padding: 131px 156px;
     text-align: center;
-    margin-top: 130px;
-    margin-bottom: 130px;
 }
 .about{
     background-color: white;
@@ -144,5 +147,57 @@ main{
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.095);
-    margin-bottom: 130px;
+}
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-collumn-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exp-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.exp-description{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.dw-cv{
+    margin-top: 40px;
+}
+
+/* contact styles */
+footer{
+    display: flex;
+    gap: 115px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.footer-collumn{
+    width: 50%;
+}
+footer .section-title{
+    text-align: left;
+}
+footer input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 10px;
+    /* height: 64px; */
+    font-size: 20px;
 }
